@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&family=Rubik+Wet+Paint&display=swap');
+body {
+    font-family: 'Roboto';
+}
+
+.title {
+    color: green;
+    font-size: 30px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.list {
+    display: inline;
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+.link {
+    color: black;
+    text-decoration: none;
+}
+
+.content {
+    text-align: center;
+    padding: 10rem;
+    background: url('../images/bg.jpg');
+    background-size: cover;
+    font-size: large;
+}
+
+.content_SubHeading {
+    color: green;
+}
+
+.btn-primary {
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 14px;
+}
+
+.video_section {
+    padding: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.highlighted_text {
+    color: green;
+}
+
+.video_frame {
+    margin: 30px;
+}
+
+.image_info {
+    display: flex;
+    justify-content: center;
+}
+
+.leftimage img {
+    width: 250px;
+    height: 200px;
+}
+
+.righttext {
+    width: 30%;
+}
